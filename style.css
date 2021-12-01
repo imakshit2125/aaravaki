@@ -43,6 +43,8 @@ section {
 footer {
   font-family: "Poppins", sans-serif;
 }
+
+
 .about .about-content,
 .services .serv-content,
 .skills .skills-content,
@@ -273,7 +275,7 @@ section .title::after {
   background: none;
 }
 
-/* services section styling */
+/* Hobbies section styling */
 .services,
 .teams {
   color: #fff;
@@ -287,6 +289,19 @@ section .title::after {
 .teams .title::after {
   background: #111;
   content: "what i love to do";
+}
+.CP{
+  font-size: 20px; 
+  color:white
+}
+.leetcode,.codechef,.codeforces,.steam,.wd{
+  color:rgb(238, 140, 13);
+  font-size: 20px;
+}
+
+.leetcode:hover,.codechef:hover,.codeforces:hover,.steam:hover{
+  color:rgb(238, 234, 13);
+  font-size: 20px;
 }
 .services .serv-content .card {
   width: calc(33% - 20px);
